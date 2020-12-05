@@ -1,9 +1,0 @@
-/home/liushuai/design-pattern/refactor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/liushuai/design-pattern/refactor/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/liushuai/design-pattern/refactor/cmake-build-debug/CMakeFiles/tradition_method.dir
-/home/liushuai/design-pattern/refactor/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
-/home/liushuai/design-pattern/refactor/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-/home/liushuai/design-pattern/refactor/cmake-build-debug/src/CMakeFiles/Application_o.dir
-/home/liushuai/design-pattern/refactor/cmake-build-debug/src/CMakeFiles/run.dir
-/home/liushuai/design-pattern/refactor/cmake-build-debug/src/CMakeFiles/Library_o.dir
-/home/liushuai/design-pattern/refactor/cmake-build-debug/src/CMakeFiles/template.dir

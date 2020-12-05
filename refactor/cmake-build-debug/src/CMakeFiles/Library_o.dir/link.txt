@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libLibrary_o.so -o libLibrary_o.so CMakeFiles/Library_o.dir/Library_o.cpp.o 

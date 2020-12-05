@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libtemplate.so -o libtemplate.so CMakeFiles/template.dir/Application.cpp.o CMakeFiles/template.dir/Library.cpp.o 
