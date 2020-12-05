@@ -1,0 +1,6 @@
+include_directories(${CMAKE_SOURCE_DIR}/include)
+message(STATUS "${CMAKE_SOURCE_DIR}")
+add_library(Application_o SHARED Application_o.cpp)
+add_library(Library_o SHARED Library_o.cpp)
+add_library(run SHARED run.cpp)
+add_library(template SHARED Application.cpp Library.cpp)

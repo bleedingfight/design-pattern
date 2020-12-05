@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Library_o.h
+
+/home/liushuai/design-pattern/refactor/src/Library_o.cpp
+Library_o.h
+/home/liushuai/design-pattern/refactor/src/Library_o.h
+iostream
+-
+

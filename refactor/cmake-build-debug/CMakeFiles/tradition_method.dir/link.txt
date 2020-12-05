@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tradition_method.dir/main.cpp.o  -o tradition_method  -Wl,-rpath,/home/liushuai/design-pattern/refactor/cmake-build-debug/src src/librun.so src/libLibrary_o.so src/libApplication_o.so src/libtemplate.so 

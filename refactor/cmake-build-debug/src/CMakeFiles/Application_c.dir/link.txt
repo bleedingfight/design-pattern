@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libApplication_c.so -o libApplication_c.so CMakeFiles/Application_c.dir/Application_o.cpp.o 
