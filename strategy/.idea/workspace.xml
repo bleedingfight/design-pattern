@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="strategy" targetName="strategy" />
+      <config projectName="strategy" targetName="currency" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aebbd65f-7a4e-4465-a173-e4840424c9d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/CurrencyCat.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/CurrencyRate_o.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Context.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CurrencyRate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CurrencyRate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CurrencyRate_o.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ICurrencyStrategy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ICurrencyStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ICurrencyStrategyFactory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ICurrencyStrategyFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/USCurrencyStrategy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/USCurrencyStrategy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/USCurrencyStrategyFactory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/USCurrencyStrategyFactory.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lEpkgor7vFBpm2pLgZRBboVg9l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="CMake Application.strategy">
+    <configuration name="currency" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="strategy" TARGET_NAME="currency" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="strategy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="strategy" TARGET_NAME="strategy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="strategy" RUN_TARGET_NAME="strategy">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.currency" />
+      <item itemvalue="CMake Application.strategy" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aebbd65f-7a4e-4465-a173-e4840424c9d9" name="Default Changelist" comment="" />
+      <created>1607172249351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607172249351</updated>
+      <workItem from="1607172252833" duration="2808000" />
+      <workItem from="1607180858669" duration="3375000" />
+      <workItem from="1607220974943" duration="548000" />
+      <workItem from="1607225380288" duration="6958000" />
+      <workItem from="1607236112645" duration="2645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="738" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607173535547">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="738" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1415@0.25.2560.1415" timestamp="1607173535547" />
+    <state width="2512" height="397" key="GridCell.Tab.0.bottom" timestamp="1607174290973">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2512" height="397" key="GridCell.Tab.0.bottom/0.25.2560.1415@0.25.2560.1415" timestamp="1607174290973" />
+    <state width="2512" height="397" key="GridCell.Tab.0.center" timestamp="1607174290972">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2512" height="397" key="GridCell.Tab.0.center/0.25.2560.1415@0.25.2560.1415" timestamp="1607174290972" />
+    <state width="2512" height="397" key="GridCell.Tab.0.left" timestamp="1607174290972">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2512" height="397" key="GridCell.Tab.0.left/0.25.2560.1415@0.25.2560.1415" timestamp="1607174290972" />
+    <state width="2512" height="397" key="GridCell.Tab.0.right" timestamp="1607174290973">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2512" height="397" key="GridCell.Tab.0.right/0.25.2560.1415@0.25.2560.1415" timestamp="1607174290973" />
+    <state width="2512" height="489" key="GridCell.Tab.1.bottom" timestamp="1607174290077">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2512" height="489" key="GridCell.Tab.1.bottom/0.25.2560.1415@0.25.2560.1415" timestamp="1607174290077" />
+    <state width="2512" height="489" key="GridCell.Tab.1.center" timestamp="1607174290076">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2512" height="489" key="GridCell.Tab.1.center/0.25.2560.1415@0.25.2560.1415" timestamp="1607174290076" />
+    <state width="2512" height="489" key="GridCell.Tab.1.left" timestamp="1607174290076">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2512" height="489" key="GridCell.Tab.1.left/0.25.2560.1415@0.25.2560.1415" timestamp="1607174290076" />
+    <state width="2512" height="489" key="GridCell.Tab.1.right" timestamp="1607174290076">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state width="2512" height="489" key="GridCell.Tab.1.right/0.25.2560.1415@0.25.2560.1415" timestamp="1607174290076" />
+    <state x="943" y="381" width="670" height="676" key="search.everywhere.popup" timestamp="1607227138581">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="943" y="381" width="670" height="676" key="search.everywhere.popup/0.25.2560.1415@0.25.2560.1415" timestamp="1607227138581" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/CurrencyRate_o.cpp</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/CurrencyRate_o.cpp</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/CurrencyRate_o.cpp</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
