@@ -8,10 +8,9 @@
 
 class Context {
 public:
-    double rate;
     double value;
     Context();
-    Context(double r,double value)
+    Context(double v);
 
 };
 

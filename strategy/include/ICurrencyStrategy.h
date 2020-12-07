@@ -5,7 +5,7 @@
 #ifndef STRATEGY_ICURRENCYSTRATEGY_H
 #define STRATEGY_ICURRENCYSTRATEGY_H
 #include "Context.h"
-
+#include <iostream>
 class ICurrencyStrategy {
 public:
     virtual double calculateCurrency(Context& c)=0;

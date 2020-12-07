@@ -5,10 +5,11 @@
 #include <iostream>
 #include "CurrencyRate_o.h"
 #include "CurrencyCat.h"
-#include "CurrencyRate.h"
 #include "ICurrencyStrategyFactory.h"
-#include "USCurrencyStrategy.h"
-#include "USCurrencyStrategyFactory.h"
+#include "Context.h"
+#include "RussiaCurrencyStratrgyFactory.h"
+#include "RussiaCurrencyStrategy.h"
+#include "CurrencyRate.h"
 using namespace std;
 int main(){
     CurrencyCate{US_RATE};
@@ -16,13 +17,14 @@ int main(){
     double rate = cr.CalculateRate(100.0);
 
     ICurrencyStrategyFactory* factory;
-    USCurrencyStrategyFactory* isf= new USCurrencyStrategyFactory();
-    factory = isf;
+
+    RussiaCurrencyStratrgyFactory* rsf= new RussiaCurrencyStratrgyFactory();
     ICurrencyStrategy* strategy;
-    USCurrencyStrategy *usstrategy;
-    usstrategy=  isf->NewCurrencyStrategy();
-    strategy = usstrategy;
+    RussiaCurrencyStrategy *usstrategy;
+    Context c(100);
+    CurrencyRate currentrate(rsf);
 
-
-    cout<<rate;
+    double currency_value = currentrate.Calculate(c);
+    cout<<currency_value<<"\n";
+    delete rsf;
 }

@@ -3,3 +3,6 @@
 //
 
 #include "ICurrencyStrategy.h"
+ICurrencyStrategy::~ICurrencyStrategy() {
+    std::cout<<"Destroy ICurrencyStrategy\n";
+}

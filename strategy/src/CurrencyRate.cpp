@@ -9,7 +9,6 @@ CurrencyRate::CurrencyRate(ICurrencyStrategyFactory *currencyStrategyFactory) {
 CurrencyRate::~CurrencyRate() {
     delete this->strategy;
 }
-double CurrencyRate::Calculate() {
-    Context c;
-    return this->strategy->calculateCurrency(c);
+double CurrencyRate::Calculate(Context& context) {
+    return this->strategy->calculateCurrency(context);
 }

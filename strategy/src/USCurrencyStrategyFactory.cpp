@@ -6,6 +6,6 @@
 ICurrencyStrategy * USCurrencyStrategyFactory::NewCurrencyStrategy() {
     return new USCurrencyStrategy();
 }
-USCurrencyStrategyFactory::~ICurrencyStrategyFactory() {
-    std::cout<<"Destroy USCurrencyStrategy"<<"\n";
+USCurrencyStrategyFactory::~USCurrencyStrategyFactory() {
+    std::cout<<"Destroy USCurrency StrategyFactory\n";
 }

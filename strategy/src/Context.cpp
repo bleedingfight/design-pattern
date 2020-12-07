@@ -4,10 +4,8 @@
 
 #include "Context.h"
 Context::Context() {
-    rate = 0;
     value = 0;
 }
-Context::Context(double r, double value) {
-    rate = r;
+Context::Context(double v) {
     value = v;
 }

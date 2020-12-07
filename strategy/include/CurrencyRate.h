@@ -13,7 +13,7 @@ private:
 public:
     CurrencyRate(ICurrencyStrategyFactory* currencyStrategyFactory);
     ~CurrencyRate();
-    double Calculate();
+    double Calculate(Context& context);
 
 };
 
