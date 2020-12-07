@@ -9,6 +9,7 @@
 class ICurrencyStrategyFactory {
 public:
     virtual ICurrencyStrategy* NewCurrencyStrategy() = 0;
+    ~ICurrencyStrategyFactory();
 
 };
 

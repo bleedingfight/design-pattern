@@ -7,9 +7,10 @@
 #include "ICurrencyStrategyFactory.h"
 #include "ICurrencyStrategy.h"
 #include "USCurrencyStrategy.h"
-class USCurrencyStrategyFactory : ICurrencyStrategyFactory{
+class USCurrencyStrategyFactory : public ICurrencyStrategyFactory{
 public:
-    virtual *ICurrencyStrategy NewCurrencyStrategy();
+    virtual ICurrencyStrategy* NewCurrencyStrategy();
+    ~USCurrencyStrategyFactory();
 
 };
 

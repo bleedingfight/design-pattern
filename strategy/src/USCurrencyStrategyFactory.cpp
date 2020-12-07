@@ -4,5 +4,8 @@
 
 #include "USCurrencyStrategyFactory.h"
 ICurrencyStrategy * USCurrencyStrategyFactory::NewCurrencyStrategy() {
-    return
+    return new USCurrencyStrategy();
+}
+USCurrencyStrategyFactory::~ICurrencyStrategyFactory() {
+    std::cout<<"Destroy USCurrencyStrategy"<<"\n";
 }

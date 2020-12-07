@@ -3,3 +3,9 @@
 //
 
 #include "ICurrencyStrategyFactory.h"
+ICurrencyStrategyFactory::~ICurrencyStrategyFactory() {
+    std::cout<<"Destroy ICurrencyStrategyFactory"<<"\n";
+}
+ICurrencyStrategy * ICurrencyStrategyFactory::NewCurrencyStrategy() {
+    return new ICurrencyStrategy();
+}

@@ -4,5 +4,5 @@
 
 #include "USCurrencyStrategy.h"
 double USCurrencyStrategy::calculateCurrency(Context &c) {
-    return c.value*c.rate;
+    return c.value*
 }

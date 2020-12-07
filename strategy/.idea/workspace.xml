@@ -13,24 +13,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aebbd65f-7a4e-4465-a173-e4840424c9d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/CurrencyCat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/CurrencyRate_o.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Context.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CurrencyRate.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CurrencyRate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CurrencyRate_o.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ICurrencyStrategy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ICurrencyStrategy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ICurrencyStrategyFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ICurrencyStrategyFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/USCurrencyStrategy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/USCurrencyStrategy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/USCurrencyStrategyFactory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/USCurrencyStrategyFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/include/FileProcess.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/include/IReader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/include/IReaderFactory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/include/ImageFactoryReader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/include/ImageReader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/include/TextFactoryReader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/include/TextReader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/src/FileProcess.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/src/IReader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/src/IReaderFactory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/src/ImageFactoryReader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/src/ImageReader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/src/TextFactoryReader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../factoryMethod/src/TextReader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/strategy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/strategy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/Context.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CurrencyRate.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/CurrencyRate.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ICurrencyStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/ICurrencyStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ICurrencyStrategyFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ICurrencyStrategyFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ICurrencyStrategyFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/ICurrencyStrategyFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/USCurrencyStrategy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/USCurrencyStrategy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/USCurrencyStrategy.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/USCurrencyStrategy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/USCurrencyStrategyFactory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/USCurrencyStrategyFactory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/USCurrencyStrategyFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/USCurrencyStrategyFactory.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +50,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -56,7 +67,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/include" />
+    </key>
   </component>
   <component name="RunManager" selected="CMake Application.strategy">
     <configuration name="currency" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="strategy" TARGET_NAME="currency" CONFIG_NAME="Debug">
@@ -89,6 +107,11 @@
       <workItem from="1607220974943" duration="548000" />
       <workItem from="1607225380288" duration="6958000" />
       <workItem from="1607236112645" duration="2645000" />
+      <workItem from="1607243252845" duration="1702000" />
+      <workItem from="1607258304258" duration="453000" />
+      <workItem from="1607260103928" duration="56000" />
+      <workItem from="1607260171401" duration="4164000" />
+      <workItem from="1607265236527" duration="4707000" />
     </task>
     <servers />
   </component>
@@ -100,6 +123,10 @@
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state x="738" y="391" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1415@0.25.2560.1415" timestamp="1607173535547" />
+    <state x="743" y="298" key="FileChooserDialogImpl" timestamp="1607245102405">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="743" y="298" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1607245102405" />
     <state width="2512" height="397" key="GridCell.Tab.0.bottom" timestamp="1607174290973">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
@@ -132,6 +159,10 @@
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state width="2512" height="489" key="GridCell.Tab.1.right/0.25.2560.1415@0.25.2560.1415" timestamp="1607174290076" />
+    <state x="456" y="190" width="1007" height="732" key="SettingsEditor" timestamp="1607260159176">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="456" y="190" width="1007" height="732" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1607260159176" />
     <state x="943" y="381" width="670" height="676" key="search.everywhere.popup" timestamp="1607227138581">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
@@ -152,7 +183,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>9</line>
+          <line>13</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">

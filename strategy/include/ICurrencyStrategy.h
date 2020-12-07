@@ -9,6 +9,7 @@
 class ICurrencyStrategy {
 public:
     virtual double calculateCurrency(Context& c)=0;
+    virtual ~ICurrencyStrategy();
 };
 
 
