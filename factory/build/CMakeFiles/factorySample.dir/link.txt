@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/factorySample.dir/main.cc.o -o factorySample  -Wl,-rpath,/home/liushuai/design-pattern/factory/build/src src/libfactory.so 
