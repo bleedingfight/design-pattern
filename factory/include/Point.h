@@ -13,7 +13,8 @@ class Point {
    public:
     static Point NewCartesian(float x, float y) { return {x, y}; };
     static Point NewPolar(float t, float r) {
-      return {static_cast<float>(r * cos(t)), static_cast<float>(r * sin(t))};
+      return {static_cast<float>(r * std::cos(t)),
+              static_cast<float>(r * std::sin(t))};
     };
   };
 
