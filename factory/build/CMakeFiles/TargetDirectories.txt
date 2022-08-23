@@ -1,6 +1,0 @@
-/home/liushuai/design-pattern/factory/build/CMakeFiles/factorySample.dir
-/home/liushuai/design-pattern/factory/build/CMakeFiles/edit_cache.dir
-/home/liushuai/design-pattern/factory/build/CMakeFiles/rebuild_cache.dir
-/home/liushuai/design-pattern/factory/build/src/CMakeFiles/factory.dir
-/home/liushuai/design-pattern/factory/build/src/CMakeFiles/edit_cache.dir
-/home/liushuai/design-pattern/factory/build/src/CMakeFiles/rebuild_cache.dir
