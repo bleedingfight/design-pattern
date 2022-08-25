@@ -23,5 +23,5 @@ std::unique_ptr<HotDrink> make_drink(std::string type) {
 int main() {
   std::string type = "Coffee";
   DrinkFactory factory;
-  factory.make_drink(type);
+  factory.make_drink(type)->prepare(100);
 }
