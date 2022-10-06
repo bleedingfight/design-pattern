@@ -21,7 +21,7 @@ class TransparentShape{
 }
 Shape--|>Circle
 Shape--|>ColoredShape
-Shape--|>TransparentShape
+Shape--|>TransparentShape: 装饰器添加透明度输出
 ColoredShape::str--> Circle::str:为Circle::str添加输出颜色功能
 TransparentShape::str->Circle::str:为Circle::str添加输出透明度功能
 @enduml
