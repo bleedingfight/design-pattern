@@ -1,0 +1,27 @@
+@startuml
+abstract class Shape{
+    + {abstract} string str();
+}
+class Circle{
+    + radius
+    + resize(float factor)
+    + str()
+}
+class ColoredShape{
+    + Shape& shape
+    + string color
+    + ColoredShape(Shape&shape,const string& color)
+    + string str() const
+
+}
+class TransparentShape{
+    + Shape& Shape
+    + uint8_t transparency
+    + string str() const
+}
+Shape--|>Circle
+Shape--|>ColoredShape
+Shape--|>TransparentShape
+ColoredShape::str--> Circle::str:为Circle::str添加输出颜色功能
+TransparentShape::str->Circle::str:为Circle::str添加输出透明度功能
+@enduml
