@@ -1,0 +1,19 @@
+@startuml
+class Image{
+    + {abstruct} void draw()
+}
+class Bitmap{
+- filename
++ void draw()
+}
+class LazyBitmap{
+    - Bitmap* bmp
+    - string filename
+    + LazyBitmap()
+    + ~LazyBitmap()
+    + void draw() override
+}
+Image--|>LazyBitmap
+LazyBitmap::bmp-->Bitmap: Bitmap指针
+LazyBitmap::draw-->Bitmap::draw: 实现构造Bitmap同时调用draw方法
+@enduml
