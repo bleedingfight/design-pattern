@@ -1,0 +1,28 @@
+@startuml
+class BankAccount{
+    - balance
+    - overdraft_limit
+    + void deposit(int amount)
+    + void withdraw(int amount)
+    + int getBalance() const
+}
+class Command{
+    # bool successed
+    + {abstract} void call()
+    + {abstract} void undo()
+}
+class BankAccountCommand{
+    - shared_ptr<BankAccount> account
+    - Action action
+    - int amount
+    + void call()
+    + void undo() 
+}
+Command--|>BankAccountCommand
+BankAccountCommand::account-->BankAccount::account:记录账户信息
+BankAccountCommand::call--->BankAccount::deposit: 存钱
+BankAccountCommand::call-->BankAccount::withdraw: 取钱会存在取钱失败的情况
+note left of BankAccount::withdraw
+取钱数大于透支额度会导致取钱失败
+end note
+@enduml
