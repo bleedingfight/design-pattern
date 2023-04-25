@@ -1,0 +1,21 @@
+@startuml
+abstract class GraphObject{
+    + {abstruct} draw()
+}
+class Circle{
+    + void draw() override
+}
+class Group{
+    + std::string name
+    + void draw() override
+}
+GraphObject--|> Circle
+GraphObject--|> Group
+Group::draw-->Circle::draw: 调用单对象绘图
+note right of Group::"void draw() override"
+针对多对象绘图
+end note
+note right of Circle::"void draw() override"
+针对单对象绘制
+end note
+@enduml

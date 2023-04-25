@@ -1,0 +1,30 @@
+@startuml
+class Node<T>{
+    - T value
+    + Node<T> *left
+    + Node<T> *right
+    + Node<T> *parent
+    + BinaryTree<T>* tree
+    + Node(const T&value)
+    + Node(const T&value,Node<T>* const left,Node<T>* const right)
+    + void set_tree(BinaryTree<T>* t)
+}
+class BinaryTree<T>{
+    + Node<T>* root = nullptr;
+    + BinaryTree(Node<T>* const root)
+
+}
+class PreOrderIterator<U>{
+    - Node<U>* current;
+    + PreOrderItrans(Node<U>* current)
+    + bool operator!=(const PreOrderIterator<U>& other)
+    + Node<U>& operator*()
+    + PreOrderIterator<U>operator++()
+    + iterator begin()
+    + iterator end()
+}
+@enduml
+
+@startmindmap
+*me
+@endmindmap

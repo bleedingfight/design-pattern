@@ -1,0 +1,35 @@
+@startuml
+class Creature{
+    + string name
+    + int attach
+    + int defense
+}
+class CreatureModifier{
+    - CreatureModifier*
+    # Creature& creature
+    + add(CreatureModifier* cm)
+    + {abstract} void handle()
+}
+class DoubleAttachModifier{
+    + DoubleAttachModifier(Creature&creature)
+    + void handle() override
+}
+class IncreasesModifier{
+    + IncreasesModifier(Creature&creature)
+    + void handle() override
+}
+class IncreasesDefenseModifier{
+    + IncreasesDefenseModifier(Creature&creature)
+    + void handle() override
+}
+class NoBonusseModifier{
+    + NoBonusseModifier(Creature&creature)
+    + void handle() override
+}
+CreatureModifier--|>DoubleAttachModifier
+CreatureModifier--|>IncreasesModifier
+CreatureModifier--|> IncreasesDefenseModifier
+CreatureModifier--|> NoBonusseModifier
+DoubleAttachModifier::handle-->Creature: 操作creature
+CreatureModifier::creature --> Creature:成员
+@enduml

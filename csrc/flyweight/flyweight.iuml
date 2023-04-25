@@ -1,0 +1,12 @@
+@startuml
+class Font{
+    - key
+    - Font(string& key)
+    - friend ostream& operator<<(ostream&os,Font f)
+}
+class FontFactory{
+    - map<string,shared_ptr<Font>> fontPool
+    - string getKey() const;
+}
+FontFactory::getKey-->Font:Font对象池
+@enduml 
