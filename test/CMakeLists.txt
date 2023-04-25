@@ -1,4 +1,4 @@
-include_directories(${CMAKE_SOURCE_DIR}/algorithm/include)
+include_directories(${CMAKE_SOURCE_DIR})
 
 file(GLOB TEST_SRCS "src/*.cc")
 enable_testing()
@@ -22,7 +22,7 @@ foreach(filename ${TEST_SRCS})
   set(TARGET_NAME benchmark_${TEST_NAME})
   add_executable(${TARGET_NAME} ${filename})
   set_target_properties(${TARGET_NAME} PROPERTIES OUTPUT_NAME ${TEST_NAME})
-  target_link_libraries(${TARGET_NAME} gtest_main state)
+  target_link_libraries(${TARGET_NAME} gtest_main state singleton)
   # target_link_libraries(${TARGET_NAME} benchmark::benchmark gtest_main common
   # dp)
   add_test(${TARGET_NAME} ${TEST_NAME})

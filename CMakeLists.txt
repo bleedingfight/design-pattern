@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
 project(design_pattern)
-add_subdirectory(state)
 set(CXX_STANDARD 17)
 # 设置静态地址检查
 set(CMAKE_CXX_FLAGS_DEBUG
@@ -12,6 +11,7 @@ set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -pg")
 set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -pg")
 
 option(BUILD_TEST "Build the Test" ON)
+add_subdirectory(csrc)
 if(BUILD_TEST)
   add_subdirectory(test)
 endif()
