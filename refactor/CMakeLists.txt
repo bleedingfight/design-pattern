@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.14)
-project(tradition_method)
-add_subdirectory(src)
-include_directories(include)
-add_executable(${PROJECT_NAME} main.cpp)
-target_link_libraries(${PROJECT_NAME}  run Library_o Application_o template)

@@ -1,6 +1,0 @@
-cmake_minimum_required(VERSION 3.14)
-project(chain_of_res)
-include_directories(include)
-add_subdirectory(src)
-add_executable(${PROJECT_NAME} main.cc)
-target_link_libraries(${PROJECT_NAME} utils)
