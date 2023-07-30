@@ -1,0 +1,31 @@
+@startuml
+class ListStrategy{
+    + virtual void start(ostringstream&oss);
+    + virtual void add_list_item(osstringstream*oss,const string&item)
+    + virtual void end(ostringstream&oss);
+}
+class TextProcessor{
+    + void append_list(const vector<string>items)
+    + set_output_format(const OutputFormat format)
+    - ostringstream oss;
+    - unique_ptr<ListStrategy> list_strategy;
+}
+
+class HtmlListStrategy{
+    + void start(ostringstream&oss) override;
+    + void end(ostringstream&oss) override;
+    + void add_list_item(ostringstream&oss,const string&item) override;
+}
+class MarkdownListStrategy{
+    + void add_list_item(ostringstream&oss,const string&item) override;
+}
+enum OutputFormat{
+    - OutputFormat::markdown
+    - OutputFormat::html
+}
+ListStrategy--|>HtmlListStrategy
+ListStrategy--|>MarkdownListStrategy
+TextProcessor::list_strategy--|>ListStrategy:策略指针
+TextProcessor::set_output_format--|>OutputFormat:设置输出格式
+OutputFormat--|>TextProcessor:list_strategy:设置多态指针指向对应的策略
+@enduml

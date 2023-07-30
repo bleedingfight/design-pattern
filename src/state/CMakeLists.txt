@@ -1,4 +1,4 @@
-include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(include)
 set(CMAKE_LIBRARY_PATH ${CMAKE_SOURCE_DIR}/lib)
-file(GLOB SRCS *.cc)
+file(GLOB SRCS src/*.cc)
 add_library(state SHARED ${SRCS})

@@ -1,0 +1,23 @@
+@startuml
+class Game{
+    - void run()
+    # virtual void start()=0
+    # virtual bool have_winner()=0
+    # virtual void take_turn()=0
+    # virtual int get_winner()=0
+    # int current_player;
+    # int number_of_players;
+
+}
+class Chess{
+    + explicit Chess()
+    # void start() override;
+    # bool have_winner() override;
+    # void take_turn() override;
+    # get_winner()override;
+    - int turns
+    - max_turns
+}
+Game--|> Chess
+
+@enduml

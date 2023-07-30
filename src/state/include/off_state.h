@@ -1,6 +1,5 @@
 #pragma once
 #include "light_switch.h"
-#include "state.h"
 #include <iostream>
 class LightSwitch;
 class OffState : public State {
